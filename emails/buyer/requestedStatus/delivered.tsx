@@ -67,7 +67,7 @@ export default function Delivered() {
               </div>
 
               <div className="status flex mb-4 relative z-10">
-                <div className="absolute top-[22%] left-[4rem] border border-dashed border-gray w-4/5 -z-10"></div>
+                {/* <div className="absolute top-[22%] left-[4rem] border border-dashed border-gray w-4/5 -z-10"></div> */}
                 {deliveredStatus.map((status) => (
                   <div className="w-1/4 ">
                     <div className="px-4 bg-white mx-auto w-fit">
