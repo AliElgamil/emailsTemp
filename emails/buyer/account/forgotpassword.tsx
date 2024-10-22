@@ -10,37 +10,69 @@ import {
   Link,
   Row,
   Column,
+  Button,
 } from "@react-email/components";
 import React from "react";
-import { tailwindConfig } from "../assets/constant";
-import { contactUs, downloadApp, socialMedia } from "../assets/constant/footer";
+import { tailwindConfig } from "../../assets/constant";
+import {
+  contactUs,
+  downloadApp,
+  socialMedia,
+} from "../../assets/constant/footer";
 
-export default function WalletCreated() {
+export default function ForgotPassword() {
   return (
     <Html>
       <Head />
       <Tailwind config={tailwindConfig}>
         <Body className="bg-body-bg font-sans px-2 py-4">
           <Container className="bg-white rounded-lg p-[40px] max-w-[660px] text-black">
+            {/* Logo */}
+            <Section className="mb-8">
+              <Img
+                src="https://kraftsstorage.s3.eu-central-1.amazonaws.com/static/mail_icons/krafttopia/krafttopia.png"
+                alt="krafttopia logo"
+                className="w-[180px] mx-auto"
+              />
+            </Section>
+            {/* Logo */}
+
             {/* Content */}
             <Section>
+              <Text className="text-xl font-bold">Email Verification</Text>
               <Img
-                src="https://kraftsstorage.s3.eu-central-1.amazonaws.com/static/mail_icons/krafttopia/wallet.png"
+                src="https://kraftsstorage.s3.eu-central-1.amazonaws.com/static/mail_icons/krafttopia/otp.png"
                 className="block w-[180px] mx-auto"
               />
-              <Text className="text-2xl text-center font-bold m-0 mt-4">
-                {" "}
-                Hi Mohamed,{" "}
+              <Text className="text-base"> Hi Mohamed, </Text>
+              <Text className="text-base">
+                Forgot your password? No worries! Use the verification code
+                below to reset it
               </Text>
-              <Text className="text-2xl text-center font-bold m-0 mb-4 ">
-                Welcome back to{" "}
+              <Text className="text-base border-solid border border-primary w-[120px] rounded-[4px] text-primary py-[20px] text-center leading-4">
+                235123
+              </Text>
+              <Text className="text-base">
+                Alternatively, you can directly change your password.
+              </Text>
+              <Button
+                href="#"
+                className="rounded-full bg-primary text-white px-8 py-4 leading-4"
+              >
+                Change password
+              </Button>
+              <Text className="text-base">
+                If you didn’t request a password reset, no worries! Just ignore
+                this email or{" "}
                 <Link href="#" className="text-primary">
-                  Krafftopia!
+                  contact our support team for assistance.
                 </Link>
               </Text>
-              <Text className="text-base max-w-[400px] m-0 mx-auto mb-9 text-center">
-                Your wallet has been successfully created! You can now use it
-                for transactions 😊
+              <Text className="font-bold  leading-4">
+                Thank you,{" "}
+                <span className="font-normal">
+                  We’re here to help if you need anything
+                </span>
               </Text>
             </Section>
             {/* Content */}
@@ -78,7 +110,7 @@ export default function WalletCreated() {
                   </Text>
                   <div className="flex mb-4">
                     {socialMedia.map((social) => (
-                      <Link href={social.link} className="w-10 h-10 mr-1 grid">
+                      <Link href={social.link} className="w-10 h-10 mr-1 ">
                         <Img src={social.icon} className="w-10 h-10" />
                       </Link>
                     ))}

@@ -10,13 +10,16 @@ import {
   Link,
   Row,
   Column,
-  Button,
 } from "@react-email/components";
 import React from "react";
-import { tailwindConfig } from "../assets/constant";
-import { contactUs, downloadApp, socialMedia } from "../assets/constant/footer";
+import { tailwindConfig } from "../../assets/constant";
+import {
+  contactUs,
+  downloadApp,
+  socialMedia,
+} from "../../assets/constant/footer";
 
-export default function ForgotPassword() {
+export default function DeleteAccount() {
   return (
     <Html>
       <Head />
@@ -35,40 +38,20 @@ export default function ForgotPassword() {
 
             {/* Content */}
             <Section>
-              <Text className="text-xl font-bold">Email Verification</Text>
-              <Img
-                src="https://kraftsstorage.s3.eu-central-1.amazonaws.com/static/mail_icons/krafttopia/otp.png"
-                className="block w-[180px] mx-auto"
-              />
-              <Text className="text-base"> Hi Mohamed, </Text>
-              <Text className="text-base">
-                Forgot your password? No worries! Use the verification code
-                below to reset it
+              <Text className="text-xl"> Hi Mohamed, </Text>
+              <Text>
+                We would like to confirm that your account has been successfully
+                deleted from our website. We are sorry to see you go, and we
+                hope to welcome you back in the future.
               </Text>
-              <Text className="text-base border-solid border border-primary w-[120px] rounded-[4px] text-primary py-[20px] text-center leading-4">
-                235123
-              </Text>
-              <Text className="text-base">
-                Alternatively, you can directly change your password.
-              </Text>
-              <Button
-                href="#"
-                className="rounded-full bg-primary text-white px-8 py-4 leading-4"
-              >
-                Change password
-              </Button>
-              <Text className="text-base">
-                If you didn’t request a password reset, no worries! Just ignore
-                this email or{" "}
+              <Text>
+                f you have any questions or need further assistance, please{" "}
                 <Link href="#" className="text-primary">
-                  contact our support team for assistance.
+                  Contact Us.
                 </Link>
               </Text>
-              <Text className="font-bold  leading-4">
-                Thank you,{" "}
-                <span className="font-normal">
-                  We’re here to help if you need anything
-                </span>
+              <Text className="font-bold text-xl m-0 mt-8 mb-4 leading-4">
+                Thank you for using Krafttopia!
               </Text>
             </Section>
             {/* Content */}

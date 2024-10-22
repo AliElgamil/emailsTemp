@@ -134,7 +134,7 @@ export default function ItemsReturned() {
                       </div>
                     </Column>
                     <Column className="w-[250px]">
-                      <Text className="m-0  max-w-[250px]">
+                      <Text className="m-0  max-w-[200px]">
                         iPhone 11 Black 128GB 4G LTE (2020 - Slim Packing) -
                         Middle East Version
                       </Text>

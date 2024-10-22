@@ -12,10 +12,14 @@ import {
   Column,
 } from "@react-email/components";
 import React from "react";
-import { tailwindConfig } from "../assets/constant";
-import { contactUs, downloadApp, socialMedia } from "../assets/constant/footer";
+import { tailwindConfig } from "../../assets/constant";
+import {
+  contactUs,
+  downloadApp,
+  socialMedia,
+} from "../../assets/constant/footer";
 
-export default function PhoneNumber() {
+export default function verification() {
   return (
     <Html>
       <Head />
@@ -34,15 +38,21 @@ export default function PhoneNumber() {
 
             {/* Content */}
             <Section>
-              <Text className="text-xl"> Hi Mohamed, </Text>
+              <Text className="text-xl font-bold">Email Verification</Text>
+              <Img
+                src="https://kraftsstorage.s3.eu-central-1.amazonaws.com/static/mail_icons/krafttopia/otp.png"
+                className="block w-[180px] mx-auto"
+              />
+              <Text className="text-base"> Hi Mohamed, </Text>
               <Text className="text-base">
-                A new phone number has been successfully added to your account.
-                If you did not make this change,{" "}
-                <Link href="#" className="text-primary">
-                  please contact our support team for assistance.
-                </Link>
+                Please use the following verification code to complete the
+                verification of your email:
               </Text>
-              <Text className="font-bold text-xl m-0 mt-8 mb-4 leading-4">
+              <Text className="text-base border-solid border border-primary w-[120px] rounded-[4px] text-primary py-[20px] text-center leading-4">
+                235123
+              </Text>
+
+              <Text className="font-bold text-xl leading-4">
                 Thank you for using Krafttopia!
               </Text>
             </Section>
@@ -81,7 +91,7 @@ export default function PhoneNumber() {
                   </Text>
                   <div className="flex mb-4">
                     {socialMedia.map((social) => (
-                      <Link href={social.link} className="w-10 h-10 mr-1 ">
+                      <Link href={social.link} className="w-10 h-10 mr-1 grid">
                         <Img src={social.icon} className="w-10 h-10" />
                       </Link>
                     ))}

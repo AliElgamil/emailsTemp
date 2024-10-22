@@ -12,38 +12,39 @@ import {
   Column,
 } from "@react-email/components";
 import React from "react";
-import { tailwindConfig } from "../assets/constant";
-import { contactUs, downloadApp, socialMedia } from "../assets/constant/footer";
+import { tailwindConfig } from "../../assets/constant";
+import {
+  contactUs,
+  downloadApp,
+  socialMedia,
+} from "../../assets/constant/footer";
 
-export default function OrderReturn() {
+export default function AccountCreated() {
   return (
     <Html>
       <Head />
       <Tailwind config={tailwindConfig}>
         <Body className="bg-body-bg font-sans px-2 py-4">
           <Container className="bg-white rounded-lg p-[40px] max-w-[660px] text-black">
-            {/* Logo */}
-            <Section className="mb-8">
-              <Img
-                src="https://kraftsstorage.s3.eu-central-1.amazonaws.com/static/mail_icons/krafttopia/krafttopia.png"
-                alt="krafttopia logo"
-                className="w-[180px] mx-auto"
-              />
-            </Section>
-            {/* Logo */}
-
             {/* Content */}
             <Section>
-              <Text className="text-xl"> Hi Mohamed, </Text>
-              <Text className="text-base">
-                We would like to confirm that your order number [{" "}
-                <Link href="#" className="text-primary">
-                  392513725
-                </Link>{" "}
-                ] has been successfully returned
+              <Img
+                src="https://kraftsstorage.s3.eu-central-1.amazonaws.com/static/mail_icons/krafttopia/welcome.png"
+                className="block w-[180px] mx-auto"
+              />
+              <Text className="text-2xl text-center font-bold m-0 mt-4">
+                {" "}
+                Hi Mohamed,{" "}
               </Text>
-              <Text className="font-bold text-xl m-0 mt-8 mb-4  leading-4">
-                Thank you for using Krafttopia!
+              <Text className="text-2xl text-center font-bold m-0 mb-4 ">
+                Welcome to{" "}
+                <Link href="#" className="text-primary">
+                  Krafftopia!
+                </Link>
+              </Text>
+              <Text className="text-base max-w-[400px] m-0 mx-auto mb-9 text-center">
+                Your account has been created successfully. Thank you for
+                choosing us 😊
               </Text>
             </Section>
             {/* Content */}
@@ -81,7 +82,7 @@ export default function OrderReturn() {
                   </Text>
                   <div className="flex mb-4">
                     {socialMedia.map((social) => (
-                      <Link href={social.link} className="w-10 h-10 mr-1 ">
+                      <Link href={social.link} className="w-10 h-10 mr-1 grid">
                         <Img src={social.icon} className="w-10 h-10" />
                       </Link>
                     ))}

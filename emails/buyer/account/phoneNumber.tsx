@@ -12,10 +12,14 @@ import {
   Column,
 } from "@react-email/components";
 import React from "react";
-import { tailwindConfig } from "../assets/constant";
-import { contactUs, downloadApp, socialMedia } from "../assets/constant/footer";
+import { tailwindConfig } from "../../assets/constant";
+import {
+  contactUs,
+  downloadApp,
+  socialMedia,
+} from "../../assets/constant/footer";
 
-export default function PasswordChanged() {
+export default function PhoneNumber() {
   return (
     <Html>
       <Head />
@@ -34,23 +38,17 @@ export default function PasswordChanged() {
 
             {/* Content */}
             <Section>
-              <Text className="text-xl font-bold m-0  mb-8">
-                Your Password Has Been Successfully Changed
-              </Text>
-
-              <Text className="text-base"> Hi Mohamed, </Text>
+              <Text className="text-xl"> Hi Mohamed, </Text>
               <Text className="text-base">
-                Your password has been successfully Changed! 🎉 You can now log
-                in to your account using your new password.
-              </Text>
-              <Text className="text-base">
-                If you didn’t request this password change or if you notice
-                anything suspicious about your account, please{" "}
+                A new phone number has been successfully added to your account.
+                If you did not make this change,{" "}
                 <Link href="#" className="text-primary">
-                  contact our support team immediately.
+                  please contact our support team for assistance.
                 </Link>
               </Text>
-              <Text className="font-bold text-xl  leading-4">Thank you !</Text>
+              <Text className="font-bold text-xl m-0 mt-8 mb-4 leading-4">
+                Thank you for using Krafttopia!
+              </Text>
             </Section>
             {/* Content */}
 

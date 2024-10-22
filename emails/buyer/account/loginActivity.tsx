@@ -10,12 +10,17 @@ import {
   Link,
   Row,
   Column,
+  Button,
 } from "@react-email/components";
 import React from "react";
-import { tailwindConfig } from "../assets/constant";
-import { contactUs, downloadApp, socialMedia } from "../assets/constant/footer";
+import { tailwindConfig } from "../../assets/constant";
+import {
+  contactUs,
+  downloadApp,
+  socialMedia,
+} from "../../assets/constant/footer";
 
-export default function DeleteAccount() {
+export default function LoginActivity() {
   return (
     <Html>
       <Head />
@@ -34,21 +39,43 @@ export default function DeleteAccount() {
 
             {/* Content */}
             <Section>
-              <Text className="text-xl"> Hi Mohamed, </Text>
+              <Text className="text-xl font-bold">
+                We've noticed a new login,{" "}
+                <span className="font-normal">Mohamed Ali</span>
+              </Text>
+              <div className="flex">
+                <div className="mr-2">
+                  <Img src="#" className="w-6 mr-2" />
+                </div>
+                <div>
+                  <Text className="m-0">
+                    Windows · Edge · Alexandria, Egypt
+                  </Text>
+                  <Text className="text-gray text-sm m-0">
+                    September 12 at 5:18 AM (PDT)
+                  </Text>
+                </div>
+              </div>
               <Text>
-                We would like to confirm that your account has been successfully
-                deleted from our website. We are sorry to see you go, and we
-                hope to welcome you back in the future.
+                If this wasn't you, review your active sessions and log out from
+                unfamiliar devices. For added security, change your password.
               </Text>
-              <Text>
-                f you have any questions or need further assistance, please{" "}
-                <Link href="#" className="text-primary">
-                  Contact Us.
-                </Link>
-              </Text>
-              <Text className="font-bold text-xl m-0 mt-8 mb-4 leading-4">
-                Thank you for using Krafttopia!
-              </Text>
+              <div className="flex mb-8">
+                <Button
+                  href="#"
+                  className="rounded-full bg-primary text-white px-8 py-4 leading-4 mr-2"
+                >
+                  Go to active sessions
+                </Button>
+                <Button
+                  href="#"
+                  className="rounded-full text-primary bg-white border border-solid border-primary px-8 py-4 leading-4"
+                >
+                  Change password
+                </Button>
+              </div>
+
+              <Text className="font-bold text-xl leading-4">Thank you !</Text>
             </Section>
             {/* Content */}
 

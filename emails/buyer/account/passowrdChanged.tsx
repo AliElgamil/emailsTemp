@@ -12,10 +12,14 @@ import {
   Column,
 } from "@react-email/components";
 import React from "react";
-import { tailwindConfig } from "../assets/constant";
-import { contactUs, downloadApp, socialMedia } from "../assets/constant/footer";
+import { tailwindConfig } from "../../assets/constant";
+import {
+  contactUs,
+  downloadApp,
+  socialMedia,
+} from "../../assets/constant/footer";
 
-export default function verification() {
+export default function PasswordChanged() {
   return (
     <Html>
       <Head />
@@ -34,23 +38,23 @@ export default function verification() {
 
             {/* Content */}
             <Section>
-              <Text className="text-xl font-bold">Email Verification</Text>
-              <Img
-                src="https://kraftsstorage.s3.eu-central-1.amazonaws.com/static/mail_icons/krafttopia/otp.png"
-                className="block w-[180px] mx-auto"
-              />
-              <Text className="text-base"> Hi Mohamed, </Text>
-              <Text className="text-base">
-                Please use the following verification code to complete the
-                verification of your email:
-              </Text>
-              <Text className="text-base border-solid border border-primary w-[120px] rounded-[4px] text-primary py-[20px] text-center leading-4">
-                235123
+              <Text className="text-xl font-bold m-0  mb-8">
+                Your Password Has Been Successfully Changed
               </Text>
 
-              <Text className="font-bold text-xl leading-4">
-                Thank you for using Krafttopia!
+              <Text className="text-base"> Hi Mohamed, </Text>
+              <Text className="text-base">
+                Your password has been successfully Changed! 🎉 You can now log
+                in to your account using your new password.
               </Text>
+              <Text className="text-base">
+                If you didn’t request this password change or if you notice
+                anything suspicious about your account, please{" "}
+                <Link href="#" className="text-primary">
+                  contact our support team immediately.
+                </Link>
+              </Text>
+              <Text className="font-bold text-xl  leading-4">Thank you !</Text>
             </Section>
             {/* Content */}
 
@@ -87,7 +91,7 @@ export default function verification() {
                   </Text>
                   <div className="flex mb-4">
                     {socialMedia.map((social) => (
-                      <Link href={social.link} className="w-10 h-10 mr-1 grid">
+                      <Link href={social.link} className="w-10 h-10 mr-1 ">
                         <Img src={social.icon} className="w-10 h-10" />
                       </Link>
                     ))}

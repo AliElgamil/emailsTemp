@@ -10,7 +10,6 @@ import {
   Link,
   Row,
   Column,
-  Button,
 } from "@react-email/components";
 import React from "react";
 import { tailwindConfig } from "../../assets/constant";
@@ -19,9 +18,9 @@ import {
   downloadApp,
   socialMedia,
 } from "../../assets/constant/footer";
-import { shippedStatus } from "../../assets/constant/status";
+import { deliveredStatus } from "../../assets/constant/status";
 
-export default function Shipped() {
+export default function Delivered() {
   return (
     <Html>
       <Head />
@@ -42,12 +41,34 @@ export default function Shipped() {
             <Section>
               <Text className="text-xl">Mohamed Ali,</Text>
               <Text>
-                We would like to inform you that the product(s) coming from
-                order number 3925137 have been shipped JE-DAB-392513725-4881
+                Shipment JE-DAB-392513725-4881 has been successfully delivered.
               </Text>
+              <Text>
+                We hope you enjoyed your shopping experience with krafttopia. If
+                there is any problem with the product, krafttopia offers you
+                easy returns and quick refunds.
+              </Text>
+
+              <div className="bg-primary/5 p-4 rounded-xl flex mb-8">
+                <Img src="" alt="warning" className="w-6 mr-2" />
+                <div>
+                  <Text className="m-0 mb-4  leading-5 text-zinc-600">
+                    In case of change of mind, you have 14 days from today to
+                    return the product according to{" "}
+                    <Link href="#" className="text-primary">
+                      the return conditions.
+                    </Link>
+                  </Text>
+                  <Text className="m-0 leading-5 text-zinc-600">
+                    You have 30 days from today to return the product in case of
+                    a manufacturing defect.
+                  </Text>
+                </div>
+              </div>
+
               <div className="status flex mb-4 relative z-10">
-                {/* <div className="absolute top-[22%] left-[4rem] border border-dashed border-gray w-4/5 -z-10"></div> */}
-                {shippedStatus.map((status) => (
+                <div className="absolute top-[22%] left-[4rem] border border-dashed border-gray w-4/5 -z-10"></div>
+                {deliveredStatus.map((status) => (
                   <div className="w-1/4 ">
                     <div className="px-4 bg-white mx-auto w-fit">
                       <div
@@ -102,21 +123,6 @@ export default function Shipped() {
                     </Column>
                   </Row>
                 </Section>
-              </div>
-
-              <div className="flex my-8  mx-auto w-fit">
-                <Button
-                  href="#"
-                  className="rounded-full text-sm bg-primary text-white px-8 py-2 align-middle mr-2"
-                >
-                  Order details
-                </Button>
-                <Button
-                  href="#"
-                  className="rounded-full text-sm text-primary bg-white border border-solid border-primary px-8 py-2 align-middle"
-                >
-                  Tracking Order
-                </Button>
               </div>
 
               <Text className="font-bold text-xl m-0 mt-8 mb-4 leading-4">

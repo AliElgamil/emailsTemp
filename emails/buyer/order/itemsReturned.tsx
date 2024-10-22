@@ -19,9 +19,8 @@ import {
   downloadApp,
   socialMedia,
 } from "../../assets/constant/footer";
-import { shippedStatus } from "../../assets/constant/status";
 
-export default function Shipped() {
+export default function ItemsReturned() {
   return (
     <Html>
       <Head />
@@ -42,82 +41,41 @@ export default function Shipped() {
             <Section>
               <Text className="text-xl">Mohamed Ali,</Text>
               <Text>
-                We would like to inform you that the product(s) coming from
-                order number 3925137 have been shipped JE-DAB-392513725-4881
+                We would like to inform you that the price of this product in
+                your cart has changed. Please see the details below ⬇️
               </Text>
-              <div className="status flex mb-4 relative z-10">
-                {/* <div className="absolute top-[22%] left-[4rem] border border-dashed border-gray w-4/5 -z-10"></div> */}
-                {shippedStatus.map((status) => (
-                  <div className="w-1/4 ">
-                    <div className="px-4 bg-white mx-auto w-fit">
-                      <div
-                        className={`bg-white border-[16px] border-solid rounded-full w-4 h-4 ${
-                          status.status
-                            ? "bg-white border-primary "
-                            : "bg-gray border-gray"
-                        }`}
-                      ></div>
-                    </div>
-                    <Text className="text-center font-bold">
-                      {status.title}
-                    </Text>
+              <Row className="border border-border-gray border-solid p-2 rounded-lg mb-4">
+                <Column>
+                  <div className="mr-2 w-[50px] h-[50px] rounded-lg p-1">
+                    <Img src="#" className="max-w-full max-h-full" />
                   </div>
-                ))}
-              </div>
-
-              <div className="p-3 border border-gray-2 border-solid rounded-xl ">
-                <Text className="font-bold p-3 m-0 mb-2 bg-gray-2 rounded-md">
-                  Summary of your requests:
-                </Text>
-                <Section>
-                  <Row className="mb-4">
-                    <Column width={"100px"}>
-                      <Text className="m-0 text-gray-3">Product</Text>
-                    </Column>
-                    <Column className="w-[250px]"></Column>
-                    <Column width={"65px"}>
-                      <Text className="m-0 text-gray-3">Qty</Text>
-                    </Column>
-                    <Column>
-                      <Text className="m-0 text-gray-3">price</Text>
-                    </Column>
-                  </Row>
-                  <Row className="border border-border-gray border-solid p-2 rounded-lg mb-4">
-                    <Column width={"100px"}>
-                      <div className="mr-2 w-[50px] h-[50px] rounded-lg p-1">
-                        <Img src="#" className="max-w-full max-h-full" />
-                      </div>
-                    </Column>
-                    <Column className="w-[250px]">
-                      <Text className="m-0  max-w-[200px]">
-                        iPhone 11 Black 128GB 4G LTE (2020 - Slim Packing) -
-                        Middle East Version
-                      </Text>
-                    </Column>
-                    <Column width={"65px"}>
-                      <Text className="m-0">3</Text>
-                    </Column>
-                    <Column>
-                      <Text className="m-0">34,800 EGP</Text>
-                    </Column>
-                  </Row>
-                </Section>
-              </div>
-
-              <div className="flex my-8  mx-auto w-fit">
-                <Button
-                  href="#"
-                  className="rounded-full text-sm bg-primary text-white px-8 py-2 align-middle mr-2"
-                >
-                  Order details
-                </Button>
-                <Button
-                  href="#"
-                  className="rounded-full text-sm text-primary bg-white border border-solid border-primary px-8 py-2 align-middle"
-                >
-                  Tracking Order
-                </Button>
-              </div>
+                </Column>
+                <Column>
+                  <Text className="m-0 mr-auto max-w-[250px]">
+                    iPhone 11 Black 128GB 4G LTE (2020 - Slim Packing) - Middle
+                    East Version
+                  </Text>
+                </Column>
+                <Column>
+                  <div className="ml-auto w-fit flex">
+                    <Text className="m-0">34,800 EGP</Text>
+                    <Img src="" alt="arrow" className="w-6 mx-2" />
+                    <Text className="m-0">35,000 EGP</Text>
+                  </div>
+                </Column>
+              </Row>
+              <Text>
+                If you would like to proceed with your order,
+                <Link href="#" className="text-primary">
+                  please contact us.
+                </Link>
+              </Text>
+              <Button
+                href="#"
+                className="rounded-full bg-primary text-white px-8 py-4 leading-4 mr-2"
+              >
+                see your cart
+              </Button>
 
               <Text className="font-bold text-xl m-0 mt-8 mb-4 leading-4">
                 Thank you for using Krafttopia!
@@ -168,7 +126,7 @@ export default function Shipped() {
                   </Text>
                   <div className="flex">
                     {downloadApp.map((app) => (
-                      <Link href={app.link} className="mr-1">
+                      <Link href={app.link} className="mr-1 w-1/3">
                         <Img
                           src={app.img}
                           className="w-full aspect-[8.5/2.5] max-w-[90px]  object-contain mr-1"
