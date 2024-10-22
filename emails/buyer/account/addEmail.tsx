@@ -40,10 +40,13 @@ export default function AddEmail() {
             <Section>
               <Text className="text-xl"> Hi Mohamed, </Text>
               <Text className="text-base">
-                A new E-mail address has been successfully added to your
-                account. If you did not make this change,{" "}
+                A new email address has been added successfully to your
+                krafttopia account
+              </Text>
+              <Text className="text-base">
+                If you face any problem, feel free to reach out our{" "}
                 <Link href="#" className="text-primary">
-                  please contact our support team for assistance.
+                  support team
                 </Link>
               </Text>
               <Text className="font-bold text-xl m-0 mt-8 mb-4 leading-4">

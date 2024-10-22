@@ -45,8 +45,8 @@ export default function verification() {
               />
               <Text className="text-base"> Hi Mohamed, </Text>
               <Text className="text-base">
-                Please use the following verification code to complete the
-                verification of your email:
+                To complete your registration and unlock all the benefits of
+                your account, please use the verification code below:
               </Text>
               <Text className="text-base border-solid border border-primary w-[120px] rounded-[4px] text-primary py-[20px] text-center leading-4">
                 235123

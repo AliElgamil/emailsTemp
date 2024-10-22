@@ -24,8 +24,8 @@
                   <td>
                     <p style="font-size:1.25rem;line-height:1.75rem;font-weight:700;margin:0px;margin-bottom:2rem">Your Password Has Been Successfully Changed</p>
                     <p style="font-size:1rem;line-height:1.5rem;margin:16px 0"> Hi Mohamed, </p>
-                    <p style="font-size:1rem;line-height:1.5rem;margin:16px 0">Your password has been successfully Changed! 🎉 You can now log in to your account using your new password.</p>
-                    <p style="font-size:1rem;line-height:1.5rem;margin:16px 0">If you didn’t request this password change or if you notice anything suspicious about your account, please<!-- --> <a href="#" style="color:rgb(164,25,22);text-decoration:none" target="_blank">contact our support team immediately.</a></p>
+                    <p style="font-size:1rem;line-height:1.5rem;margin:16px 0">Your password has been successfully changed</p>
+                    <p style="font-size:1rem;line-height:1.5rem;margin:16px 0">If you face any problem feel free to reach out to us at (<a href="mailto:info@krafttopia.com" style="color:rgb(164,25,22);text-decoration:none" target="_blank">info@krafttopia.com</a>)</p>
                     <p style="font-weight:700;font-size:1.25rem;line-height:1rem;margin:16px 0">Thank you !</p>
                   </td>
                 </tr>

@@ -44,15 +44,17 @@ export default function PasswordChanged() {
 
               <Text className="text-base"> Hi Mohamed, </Text>
               <Text className="text-base">
-                Your password has been successfully Changed! 🎉 You can now log
-                in to your account using your new password.
+                Your password has been successfully changed
               </Text>
               <Text className="text-base">
-                If you didn’t request this password change or if you notice
-                anything suspicious about your account, please{" "}
-                <Link href="#" className="text-primary">
-                  contact our support team immediately.
+                If you face any problem feel free to reach out to us at (
+                <Link
+                  href="mailto:info@krafttopia.com"
+                  className="text-primary"
+                >
+                  info@krafttopia.com
                 </Link>
+                )
               </Text>
               <Text className="font-bold text-xl  leading-4">Thank you !</Text>
             </Section>

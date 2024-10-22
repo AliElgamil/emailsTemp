@@ -7,7 +7,7 @@
   </head>
 
   <body style="background-color:rgb(255,248,248);font-family:ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;;padding-left:0.5rem;padding-right:0.5rem;padding-top:1rem;padding-bottom:1rem">
-    <table align="center" width="100%" border="0" cellPadding="0" cellSpacing="0" role="presentation" style="background-color:rgb(255,255,255);border-radius:0.5rem;padding:40px;max-width:660px;color:rgb(0,0,0)">
+    <table align="center" width="100%" border="0" cellPadding="0" cellSpacing="0" role="presentation" style="background-color:rgb(255,255,255);border-radius:0.5rem;padding:40px;max-width:660px;width:660px;color:rgb(0,0,0)">
       <tbody>
         <tr style="width:100%">
           <td>
@@ -22,9 +22,27 @@
               <tbody>
                 <tr>
                   <td>
-                    <p style="font-size:1.25rem;line-height:1.75rem;margin:16px 0"> Hi Mohamed, </p>
-                    <p style="font-size:14px;line-height:24px;margin:16px 0">We would like to confirm that your account has been successfully deleted from our website. We are sorry to see you go, and we hope to welcome you back in the future.</p>
-                    <p style="font-size:14px;line-height:24px;margin:16px 0">f you have any questions or need further assistance, please<!-- --> <a href="#" style="color:rgb(164,25,22);text-decoration:none" target="_blank">Contact Us.</a></p>
+                    <p style="font-size:1.25rem;line-height:1.75rem;margin:16px 0">Mohamed Ali,</p>
+                    <p style="font-size:14px;line-height:24px;margin:16px 0">Heads up! An item in your cart has a new price See the details below ⬇️</p>
+                    <table align="center" width="100%" border="0" cellPadding="0" cellSpacing="0" role="presentation" style="border-width:1px;border-color:rgb(233,233,233);border-style:solid;padding:0.5rem;border-radius:0.5rem;margin-bottom:1rem">
+                      <tbody style="width:100%">
+                        <tr style="width:100%">
+                          <td data-id="__react-email-column">
+                            <div style="margin-right:0.5rem;width:50px;height:50px;border-radius:0.5rem;padding:0.25rem"><img src="#" style="max-width:100%;max-height:100%;display:block;outline:none;border:none;text-decoration:none" /></div>
+                          </td>
+                          <td data-id="__react-email-column">
+                            <p style="margin:0px;margin-right:auto;max-width:250px;font-size:14px;line-height:24px">iPhone 11 Black 128GB 4G LTE (2020 - Slim Packing) - Middle East Version</p>
+                          </td>
+                          <td data-id="__react-email-column">
+                            <div style="margin-left:auto;width:fit-content;display:flex">
+                              <p style="margin:0px;font-size:14px;line-height:24px">34,800 EGP</p><img alt="arrow" src="" style="width:1.5rem;margin-left:0.5rem;margin-right:0.5rem;display:block;outline:none;border:none;text-decoration:none" />
+                              <p style="margin:0px;font-size:14px;line-height:24px">35,000 EGP</p>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p style="font-size:14px;line-height:24px;margin:16px 0">If you would like to proceed with your order,<a href="#" style="color:rgb(164,25,22);text-decoration:none" target="_blank">please contact us.</a></p><a href="#" style="border-radius:9999px;background-color:rgb(164,25,22);color:rgb(255,255,255);padding-left:2rem;padding-right:2rem;padding-top:1rem;padding-bottom:1rem;line-height:1rem;margin-right:0.5rem;text-decoration:none;display:inline-block;max-width:100%;mso-padding-alt:0px;padding:16px 32px 16px 32px" target="_blank"><span><!--[if mso]><i style="mso-font-width:400%;mso-text-raise:24" hidden>&#8202;&#8202;&#8202;&#8202;</i><![endif]--></span><span style="max-width:100%;display:inline-block;line-height:120%;mso-padding-alt:0px;mso-text-raise:12px">see your cart</span><span><!--[if mso]><i style="mso-font-width:400%" hidden>&#8202;&#8202;&#8202;&#8202;&#8203;</i><![endif]--></span></a>
                     <p style="font-weight:700;font-size:1.25rem;line-height:1rem;margin:0px;margin-top:2rem;margin-bottom:1rem">Thank you for using Krafttopia!</p>
                   </td>
                 </tr>

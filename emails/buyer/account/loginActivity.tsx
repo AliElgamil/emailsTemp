@@ -39,9 +39,9 @@ export default function LoginActivity() {
 
             {/* Content */}
             <Section>
-              <Text className="text-xl font-bold">
-                We've noticed a new login,{" "}
-                <span className="font-normal">Mohamed Ali</span>
+              <Text className="text-base font-bold">
+                We have detected a new login to your account from a new device
+                or browser
               </Text>
               <div className="flex">
                 <div className="mr-2">

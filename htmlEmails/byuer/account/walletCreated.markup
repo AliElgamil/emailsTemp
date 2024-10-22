@@ -16,8 +16,7 @@
                 <tr>
                   <td><img src="https://kraftsstorage.s3.eu-central-1.amazonaws.com/static/mail_icons/krafttopia/wallet.png" style="display:block;width:180px;margin-left:auto;margin-right:auto;outline:none;border:none;text-decoration:none" />
                     <p style="font-size:1.5rem;line-height:2rem;text-align:center;font-weight:700;margin:0px;margin-top:1rem"> <!-- -->Hi Mohamed,<!-- --> </p>
-                    <p style="font-size:1.5rem;line-height:2rem;text-align:center;font-weight:700;margin:0px;margin-bottom:1rem">Welcome back to<!-- --> <a href="#" style="color:rgb(164,25,22);text-decoration:none" target="_blank">Krafftopia!</a></p>
-                    <p style="font-size:1rem;line-height:1.5rem;max-width:400px;margin:0px;margin-left:auto;margin-right:auto;margin-bottom:2.25rem;text-align:center">Your wallet has been successfully created! You can now use it for transactions 😊</p>
+                    <p style="font-size:1rem;line-height:1.5rem;max-width:400px;font-weight:500;margin:0px;margin-left:auto;margin-right:auto;margin-bottom:2.25rem;text-align:center">Your wallet has been successfully created! You are now ready for more convenient payments every time you shop with us</p>
                   </td>
                 </tr>
               </tbody>

@@ -40,14 +40,11 @@ export default function PhoneNumber() {
             <Section>
               <Text className="text-xl"> Hi Mohamed, </Text>
               <Text className="text-base">
-                A new phone number has been successfully added to your account.
-                If you did not make this change,{" "}
-                <Link href="#" className="text-primary">
-                  please contact our support team for assistance.
-                </Link>
+                A new phone number has been added successfully to your
+                krafttopia account
               </Text>
               <Text className="font-bold text-xl m-0 mt-8 mb-4 leading-4">
-                Thank you for using Krafttopia!
+                We appreciate your trust
               </Text>
             </Section>
             {/* Content */}

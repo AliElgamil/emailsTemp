@@ -32,10 +32,7 @@ export default function AccountCreated() {
                 src="https://kraftsstorage.s3.eu-central-1.amazonaws.com/static/mail_icons/krafttopia/welcome.png"
                 className="block w-[180px] mx-auto"
               />
-              <Text className="text-2xl text-center font-bold m-0 mt-4">
-                {" "}
-                Hi Mohamed,{" "}
-              </Text>
+
               <Text className="text-2xl text-center font-bold m-0 mb-4 ">
                 Welcome to{" "}
                 <Link href="#" className="text-primary">
@@ -43,8 +40,7 @@ export default function AccountCreated() {
                 </Link>
               </Text>
               <Text className="text-base max-w-[400px] m-0 mx-auto mb-9 text-center">
-                Your account has been created successfully. Thank you for
-                choosing us 😊
+                your account is active now. Let the shopping begin! 😊f
               </Text>
             </Section>
             {/* Content */}

@@ -24,7 +24,7 @@
                   <td>
                     <p style="font-size:1.25rem;line-height:1.75rem;font-weight:700;margin:16px 0">Email Verification</p><img src="https://kraftsstorage.s3.eu-central-1.amazonaws.com/static/mail_icons/krafttopia/otp.png" style="display:block;width:180px;margin-left:auto;margin-right:auto;outline:none;border:none;text-decoration:none" />
                     <p style="font-size:1rem;line-height:1.5rem;margin:16px 0"> Hi Mohamed, </p>
-                    <p style="font-size:1rem;line-height:1.5rem;margin:16px 0">Please use the following verification code to complete the verification of your email:</p>
+                    <p style="font-size:1rem;line-height:1.5rem;margin:16px 0">To complete your registration and unlock all the benefits of your account, please use the verification code below:</p>
                     <p style="font-size:1rem;line-height:1rem;border-style:solid;border-width:1px;border-color:rgb(164,25,22);width:120px;border-radius:4px;color:rgb(164,25,22);padding-top:20px;padding-bottom:20px;text-align:center;margin:16px 0">235123</p>
                     <p style="font-weight:700;font-size:1.25rem;line-height:1rem;margin:16px 0">Thank you for using Krafttopia!</p>
                   </td>

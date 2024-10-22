@@ -40,11 +40,11 @@ export default function OrderReturn() {
             <Section>
               <Text className="text-xl"> Hi Mohamed, </Text>
               <Text className="text-base">
-                We would like to confirm that your order number [{" "}
+                We’ve received your return request for order no. [{" "}
                 <Link href="#" className="text-primary">
                   392513725
                 </Link>{" "}
-                ] has been successfully returned
+                ] And your products will be restored within 14 days
               </Text>
               <Text className="font-bold text-xl m-0 mt-8 mb-4  leading-4">
                 Thank you for using Krafttopia!

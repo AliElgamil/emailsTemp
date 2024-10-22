@@ -36,15 +36,9 @@ export default function WalletCreated() {
                 {" "}
                 Hi Mohamed,{" "}
               </Text>
-              <Text className="text-2xl text-center font-bold m-0 mb-4 ">
-                Welcome back to{" "}
-                <Link href="#" className="text-primary">
-                  Krafftopia!
-                </Link>
-              </Text>
-              <Text className="text-base max-w-[400px] m-0 mx-auto mb-9 text-center">
-                Your wallet has been successfully created! You can now use it
-                for transactions 😊
+              <Text className="text-base max-w-[400px] font-[500] m-0 mx-auto mb-9 text-center">
+                Your wallet has been successfully created! You are now ready for
+                more convenient payments every time you shop with us
               </Text>
             </Section>
             {/* Content */}

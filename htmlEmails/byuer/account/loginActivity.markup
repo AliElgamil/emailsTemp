@@ -22,7 +22,7 @@
               <tbody>
                 <tr>
                   <td>
-                    <p style="font-size:1.25rem;line-height:1.75rem;font-weight:700;margin:16px 0">We&#x27;ve noticed a new login,<!-- --> <span style="font-weight:400">Mohamed Ali</span></p>
+                    <p style="font-size:1rem;line-height:1.5rem;font-weight:700;margin:16px 0">We have detected a new login to your account from a new device or browser</p>
                     <div style="display:flex">
                       <div style="margin-right:0.5rem"><img src="#" style="width:1.5rem;margin-right:0.5rem;display:block;outline:none;border:none;text-decoration:none" /></div>
                       <div>

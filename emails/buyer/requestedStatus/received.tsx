@@ -41,8 +41,8 @@ export default function ItemsReturned() {
             <Section>
               <Text className="text-xl">Mohamed Ali,</Text>
               <Text>
-                We have received your request No. 392513725 successfully and it
-                is being reviewed.
+                Thank you for shopping with krafttopia, we want to inform you
+                that your order is confirmed and we’re getting it ready
               </Text>
               <div className="status flex mb-8 relative z-10">
                 {/* <div className="absolute top-[22%] left-[4rem] border border-dashed border-gray w-4/5 -z-10"></div> */}

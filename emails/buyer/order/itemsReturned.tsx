@@ -41,8 +41,8 @@ export default function ItemsReturned() {
             <Section>
               <Text className="text-xl">Mohamed Ali,</Text>
               <Text>
-                We would like to inform you that the price of this product in
-                your cart has changed. Please see the details below ⬇️
+                Heads up! An item in your cart has a new price See the details
+                below ⬇️
               </Text>
               <Row className="border border-border-gray border-solid p-2 rounded-lg mb-4">
                 <Column>

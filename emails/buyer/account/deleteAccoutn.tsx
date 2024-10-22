@@ -40,15 +40,13 @@ export default function DeleteAccount() {
             <Section>
               <Text className="text-xl"> Hi Mohamed, </Text>
               <Text>
-                We would like to confirm that your account has been successfully
-                deleted from our website. We are sorry to see you go, and we
-                hope to welcome you back in the future.
+                We hope you had a good experience with us We’d like to inform
+                you that all your personal information and data associated with
+                your account have been permanently removed from our system
               </Text>
               <Text>
-                f you have any questions or need further assistance, please{" "}
-                <Link href="#" className="text-primary">
-                  Contact Us.
-                </Link>
+                If you have any feedback on how we can improve our service, we’d
+                love to hear from you. Your opinion matters to us
               </Text>
               <Text className="font-bold text-xl m-0 mt-8 mb-4 leading-4">
                 Thank you for using Krafttopia!

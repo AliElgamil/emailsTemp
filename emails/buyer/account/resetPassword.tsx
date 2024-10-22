@@ -44,17 +44,17 @@ export default function ResetPassword() {
 
               <Text className="text-base"> Hi Mohamed, </Text>
               <Text className="text-base">
-                Your password has been successfully reset! 🎉 You can now log in
-                to your account using your new password.
+                Your password has been successfully changed
               </Text>
               <Text className="text-base">
-                If you didn’t request this password change or if you notice
-                anything suspicious about your account, please{" "}
+                If you face any problem, feel free to reach out our{" "}
                 <Link href="#" className="text-primary">
-                  contact our support team immediately.
+                  support team
                 </Link>
               </Text>
-              <Text className="font-bold text-xl  leading-4">Thank you !</Text>
+              <Text className="font-bold text-xl  leading-4">
+                We appreciate your trust ! h
+              </Text>
             </Section>
             {/* Content */}
 

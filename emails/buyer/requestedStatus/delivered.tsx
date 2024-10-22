@@ -44,9 +44,14 @@ export default function Delivered() {
                 Shipment JE-DAB-392513725-4881 has been successfully delivered.
               </Text>
               <Text>
-                We hope you enjoyed your shopping experience with krafttopia. If
-                there is any problem with the product, krafttopia offers you
-                easy returns and quick refunds.
+                We hope you’re having a great experience shopping with us.
+              </Text>
+              <Text>
+                We value your feedback ({" "}
+                <Link href="#" className="text-primary">
+                  http/drfg.feedback.dsrbg
+                </Link>{" "}
+                )
               </Text>
 
               <div className="bg-primary/5 p-4 rounded-xl flex mb-8">

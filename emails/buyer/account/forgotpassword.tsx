@@ -62,10 +62,9 @@ export default function ForgotPassword() {
                 Change password
               </Button>
               <Text className="text-base">
-                If you didn’t request a password reset, no worries! Just ignore
-                this email or{" "}
+                If you face any problem, feel free to reach out our{" "}
                 <Link href="#" className="text-primary">
-                  contact our support team for assistance.
+                  support team
                 </Link>
               </Text>
               <Text className="font-bold  leading-4">

@@ -41,12 +41,13 @@ export default function OnTehWay() {
             <Section>
               <Text className="text-xl">Mohamed Ali,</Text>
               <Text>
-                I am Romany, krafttopia delivery representative, I will contact
-                you to set an appointment to receive the shipment number
-                JE-DAB-392513725-4881 today. He will contact you from the number
-                (tel. 01066574836) If you have any inquiries regarding the
-                delivery, contact me on the same number.
+                Your shipment no. is on its way to you If you have any question
+                or need further assistance, feel free to reach out to our{" "}
+                <Link href="#" className="text-primary">
+                  support team
+                </Link>
               </Text>
+              <Text>We hope you enjoy your purchase</Text>
 
               <div className="bg-primary/5 p-4 rounded-xl flex mb-8">
                 <Img src="" alt="warning" className="w-6 mr-2" />

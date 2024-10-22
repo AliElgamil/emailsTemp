@@ -11,13 +11,21 @@
       <tbody>
         <tr style="width:100%">
           <td>
+            <table align="center" width="100%" border="0" cellPadding="0" cellSpacing="0" role="presentation" style="margin-bottom:2rem">
+              <tbody>
+                <tr>
+                  <td><img alt="krafttopia logo" src="https://kraftsstorage.s3.eu-central-1.amazonaws.com/static/mail_icons/krafttopia/krafttopia.png" style="width:180px;margin-left:auto;margin-right:auto;display:block;outline:none;border:none;text-decoration:none" /></td>
+                </tr>
+              </tbody>
+            </table>
             <table align="center" width="100%" border="0" cellPadding="0" cellSpacing="0" role="presentation">
               <tbody>
                 <tr>
-                  <td><img src="https://kraftsstorage.s3.eu-central-1.amazonaws.com/static/mail_icons/krafttopia/welcome.png" style="display:block;width:180px;margin-left:auto;margin-right:auto;outline:none;border:none;text-decoration:none" />
-                    <p style="font-size:1.5rem;line-height:2rem;text-align:center;font-weight:700;margin:0px;margin-top:1rem"> <!-- -->Hi Mohamed,<!-- --> </p>
-                    <p style="font-size:1.5rem;line-height:2rem;text-align:center;font-weight:700;margin:0px;margin-bottom:1rem">Welcome to<!-- --> <a href="#" style="color:rgb(164,25,22);text-decoration:none" target="_blank">Krafftopia!</a></p>
-                    <p style="font-size:1rem;line-height:1.5rem;max-width:400px;margin:0px;margin-left:auto;margin-right:auto;margin-bottom:2.25rem;text-align:center">Your account has been created successfully. Thank you for choosing us 😊</p>
+                  <td>
+                    <p style="font-size:1.25rem;line-height:1.75rem;margin:16px 0"> Hi Mohamed, </p>
+                    <p style="font-size:14px;line-height:24px;margin:16px 0">We hope you had a good experience with us We’d like to inform you that all your personal information and data associated with your account have been permanently removed from our system</p>
+                    <p style="font-size:14px;line-height:24px;margin:16px 0">If you have any feedback on how we can improve our service, we’d love to hear from you. Your opinion matters to us</p>
+                    <p style="font-weight:700;font-size:1.25rem;line-height:1rem;margin:0px;margin-top:2rem;margin-bottom:1rem">Thank you for using Krafttopia!</p>
                   </td>
                 </tr>
               </tbody>
@@ -51,7 +59,7 @@
                           </td>
                           <td width="50%" data-id="__react-email-column">
                             <p style="font-weight:700;text-transform:capitalize;margin:0px;margin-bottom:0.5rem;font-size:14px;line-height:24px">Follow us</p>
-                            <div style="display:flex;margin-bottom:1rem"><a href="#" style="width:2.5rem;height:2.5rem;margin-right:0.25rem;display:grid;color:#067df7;text-decoration:none" target="_blank"><img src="https://kraftsstorage.s3.eu-central-1.amazonaws.com/static/mail_icons/krafttopia/facebook.png" style="width:2.5rem;height:2.5rem;display:block;outline:none;border:none;text-decoration:none" /></a><a href="#" style="width:2.5rem;height:2.5rem;margin-right:0.25rem;display:grid;color:#067df7;text-decoration:none" target="_blank"><img src="https://kraftsstorage.s3.eu-central-1.amazonaws.com/static/mail_icons/krafttopia/x.png" style="width:2.5rem;height:2.5rem;display:block;outline:none;border:none;text-decoration:none" /></a><a href="#" style="width:2.5rem;height:2.5rem;margin-right:0.25rem;display:grid;color:#067df7;text-decoration:none" target="_blank"><img src="https://kraftsstorage.s3.eu-central-1.amazonaws.com/static/mail_icons/krafttopia/insta.png" style="width:2.5rem;height:2.5rem;display:block;outline:none;border:none;text-decoration:none" /></a></div>
+                            <div style="display:flex;margin-bottom:1rem"><a href="#" style="width:2.5rem;height:2.5rem;margin-right:0.25rem;color:#067df7;text-decoration:none" target="_blank"><img src="https://kraftsstorage.s3.eu-central-1.amazonaws.com/static/mail_icons/krafttopia/facebook.png" style="width:2.5rem;height:2.5rem;display:block;outline:none;border:none;text-decoration:none" /></a><a href="#" style="width:2.5rem;height:2.5rem;margin-right:0.25rem;color:#067df7;text-decoration:none" target="_blank"><img src="https://kraftsstorage.s3.eu-central-1.amazonaws.com/static/mail_icons/krafttopia/x.png" style="width:2.5rem;height:2.5rem;display:block;outline:none;border:none;text-decoration:none" /></a><a href="#" style="width:2.5rem;height:2.5rem;margin-right:0.25rem;color:#067df7;text-decoration:none" target="_blank"><img src="https://kraftsstorage.s3.eu-central-1.amazonaws.com/static/mail_icons/krafttopia/insta.png" style="width:2.5rem;height:2.5rem;display:block;outline:none;border:none;text-decoration:none" /></a></div>
                             <p style="font-weight:700;text-transform:capitalize;margin:0px;margin-bottom:0.5rem;font-size:14px;line-height:24px">Download App</p>
                             <div style="display:flex"><a href="#" style="margin-right:0.25rem;width:33.333333%;color:#067df7;text-decoration:none" target="_blank"><img src="https://kraftsstorage.s3.eu-central-1.amazonaws.com/static/mail_icons/krafttopia/apple.png" style="width:100%;aspect-ratio:8.5/2.5;max-width:90px;object-fit:contain;margin-right:0.25rem;display:block;outline:none;border:none;text-decoration:none" /></a><a href="#" style="margin-right:0.25rem;width:33.333333%;color:#067df7;text-decoration:none" target="_blank"><img src="https://kraftsstorage.s3.eu-central-1.amazonaws.com/static/mail_icons/krafttopia/google.png" style="width:100%;aspect-ratio:8.5/2.5;max-width:90px;object-fit:contain;margin-right:0.25rem;display:block;outline:none;border:none;text-decoration:none" /></a><a href="#" style="margin-right:0.25rem;width:33.333333%;color:#067df7;text-decoration:none" target="_blank"><img src="https://kraftsstorage.s3.eu-central-1.amazonaws.com/static/mail_icons/krafttopia/app_gallery.png" style="width:100%;aspect-ratio:8.5/2.5;max-width:90px;object-fit:contain;margin-right:0.25rem;display:block;outline:none;border:none;text-decoration:none" /></a></div>
                           </td>

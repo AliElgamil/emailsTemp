@@ -42,8 +42,14 @@ export default function Shipped() {
             <Section>
               <Text className="text-xl">Mohamed Ali,</Text>
               <Text>
-                We would like to inform you that the product(s) coming from
-                order number 3925137 have been shipped JE-DAB-392513725-4881
+                Your order no.3925137 has been shipped.You can track your
+                shipment using the tracking number JE-DAB-392513725-4881
+              </Text>
+              <Text className="text-base">
+                tracking link:
+                <Link href="#" className="text-primary">
+                  http/drfg.track.dsrbg
+                </Link>{" "}
               </Text>
               <div className="status flex mb-4 relative z-10">
                 {/* <div className="absolute top-[22%] left-[4rem] border border-dashed border-gray w-4/5 -z-10"></div> */}
